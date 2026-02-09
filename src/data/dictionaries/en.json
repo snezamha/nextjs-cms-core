@@ -1,0 +1,184 @@
+{
+  "navigation": {
+    "mainmenu": "Main Menu",
+    "mainPage": "Home Page",
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "settings": "Settings",
+    "general": "General",
+    "appearance": "Appearance",
+    "dashboardFooter": "Dashboard Footer",
+    "profile": "Profile",
+    "userManagement": "User Management",
+    "signOut": "Sign Out",
+    "signOutConfirm": {
+      "title": "Sign Out",
+      "message": "Are you sure you want to sign out?",
+      "cancel": "Cancel",
+      "confirm": "Yes, sign out"
+    },
+    "language": {
+      "language": "Language",
+      "english": "English",
+      "persian": "Persian",
+      "german": "German"
+    },
+    "mode": {
+      "mode": "Mode",
+      "dark": "Dark",
+      "light": "Light",
+      "system": "System"
+    }
+  },
+  "search": {
+    "search": "Search...",
+    "noResults": "No results found.",
+    "typeCommand": "Type or search for a menu..."
+  },
+  "footer": {
+    "copyright": "Designed & Developed by: "
+  },
+  "customizer": {
+    "title": "Customizer",
+    "description": "Mode, direction, and language.",
+    "color": "Color",
+    "radius": "Radius",
+    "mode": "Mode",
+    "language": "Language",
+    "layout": "Layout",
+    "direction": "Direction",
+    "reset": "Reset",
+    "horizontal": "Horizontal",
+    "vertical": "Vertical",
+    "ltr": "LTR",
+    "rtl": "RTL"
+  },
+  "pageTitle": {
+    "dashboard": "Dashboard",
+    "users": "User Management",
+    "profile": "Profile",
+    "settings": "Settings",
+    "dashboard-footer": "Dashboard Footer"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "We couldn't find the page you're looking for. It might have been moved or doesn't exist.",
+    "backToHome": "Back to Home",
+    "goBack": "Go Back"
+  },
+  "forbidden": {
+    "title": "Access Denied",
+    "description": "You don't have permission to view this page.",
+    "backToHome": "Back to Home",
+    "goBack": "Go Back"
+  },
+  "unauthorized": {
+    "title": "Unauthorized",
+    "description": "You need to sign in to view this page.",
+    "backToHome": "Back to Home",
+    "goBack": "Go Back"
+  },
+  "serverError": {
+    "title": "Server error",
+    "description": "Something went wrong. Please try again.",
+    "reload": "Reload",
+    "backToHome": "Back to Home"
+  },
+  "welcome": {
+    "message": "Welcome to your application",
+    "startButton": "Start from here"
+  },
+  "auth": {
+    "signIn": {
+      "title": "Login",
+      "subtitle": "Enter your credentials to access your account",
+      "google": "Sign in with Google",
+      "redirecting": "Signing you in..."
+    }
+  },
+  "settings": {
+    "general": {
+      "title": "General",
+      "metaData": {
+        "title": "Meta Data",
+        "description": "Update your general meta data details.",
+        "metaTitle": "Meta Title",
+        "metaDescription": "Meta Description",
+        "keywords": "Keywords",
+        "authorName": "Author Name",
+        "authorUrl": "Author URL",
+        "saveChanges": "Save Changes",
+        "metaDataUpdatedFor": "Meta data updated for {locale}",
+        "updatedAll": "Changes applied for all languages",
+        "saveFailed": "Failed to save changes",
+        "faLabel": "Persian",
+        "enLabel": "English",
+        "deLabel": "German"
+      }
+    },
+    "appearance": {
+      "title": "Appearance",
+      "form": {
+        "title": "Appearance",
+        "description": "Theme, radius, and layout applied to all users.",
+        "color": "Color",
+        "radius": "Radius",
+        "layout": "Layout",
+        "saveChanges": "Save Changes",
+        "updated": "Appearance settings updated.",
+        "saveFailed": "Failed to save appearance settings.",
+        "horizontal": "Horizontal",
+        "vertical": "Vertical"
+      }
+    },
+    "dashboardFooter": {
+      "title": "Dashboard Footer",
+      "form": {
+        "title": "Dashboard Footer",
+        "description": "Update the footer text shown in the dashboard.",
+        "line1": "Line 1",
+        "line2": "Line 2",
+        "saveChanges": "Save Changes",
+        "updatedFor": "Dashboard footer updated for {locale}",
+        "updatedAll": "Changes applied for all languages",
+        "saveFailed": "Failed to save changes",
+        "faLabel": "Persian",
+        "enLabel": "English",
+        "deLabel": "German"
+      }
+    }
+  },
+  "userManagementPage": {
+    "title": "User Management",
+    "description": "View users, change roles, or delete accounts.",
+    "columns": {
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "actions": "Actions"
+    },
+    "roles": {
+      "superAdmin": "Super Admin",
+      "admin": "Admin",
+      "user": "User"
+    },
+    "actions": {
+      "delete": "Delete",
+      "saving": "Saving...",
+      "deleting": "Deleting..."
+    },
+    "messages": {
+      "roleUpdated": "Role updated.",
+      "roleUpdateFailed": "Failed to update role.",
+      "superAdminImmutable": "Super admin cannot be changed.",
+      "userDeleted": "User deleted.",
+      "userDeleteFailed": "Failed to delete user."
+    },
+    "confirmDelete": {
+      "title": "Delete user?",
+      "description": "This will remove the user from both the database and Clerk.",
+      "cancel": "Cancel",
+      "confirm": "Delete"
+    }
+  }
+}

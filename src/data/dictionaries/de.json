@@ -1,0 +1,184 @@
+{
+  "navigation": {
+    "mainmenu": "Hauptmenü",
+    "mainPage": "Startseite",
+    "dashboard": "Dashboard",
+    "users": "Benutzer",
+    "settings": "Einstellungen",
+    "general": "Allgemein",
+    "appearance": "Erscheinungsbild",
+    "dashboardFooter": "Dashboard Footer",
+    "profile": "Profil",
+    "userManagement": "Benutzerverwaltung",
+    "signOut": "Abmelden",
+    "signOutConfirm": {
+      "title": "Abmelden",
+      "message": "Möchten Sie sich wirklich abmelden?",
+      "cancel": "Abbrechen",
+      "confirm": "Ja, abmelden"
+    },
+    "language": {
+      "language": "Sprache",
+      "english": "Englisch",
+      "persian": "Persisch",
+      "german": "Deutsch"
+    },
+    "mode": {
+      "mode": "Modus",
+      "dark": "Dunkel",
+      "light": "Hell",
+      "system": "System"
+    }
+  },
+  "search": {
+    "search": "Suchen...",
+    "noResults": "Keine Ergebnisse gefunden.",
+    "typeCommand": "Geben Sie ein oder suchen Sie nach einem Menü..."
+  },
+  "footer": {
+    "copyright": "Entworfen & Entwickelt von: "
+  },
+  "customizer": {
+    "title": "Anpasser",
+    "description": "Modus, Richtung und Sprache.",
+    "color": "Farbe",
+    "radius": "Radius",
+    "mode": "Modus",
+    "language": "Sprache",
+    "layout": "Layout",
+    "direction": "Richtung",
+    "reset": "Zurücksetzen",
+    "horizontal": "Horizontal",
+    "vertical": "Vertikal",
+    "ltr": "LTR",
+    "rtl": "RTL"
+  },
+  "pageTitle": {
+    "dashboard": "Dashboard",
+    "users": "Benutzerverwaltung",
+    "profile": "Profil",
+    "settings": "Einstellungen",
+    "dashboard-footer": "Dashboard Footer"
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Wir konnten die gesuchte Seite nicht finden. Sie wurde möglicherweise verschoben oder existiert nicht.",
+    "backToHome": "Zur Startseite",
+    "goBack": "Zurück"
+  },
+  "forbidden": {
+    "title": "Zugriff verweigert",
+    "description": "Sie haben keine Berechtigung, diese Seite zu sehen.",
+    "backToHome": "Zur Startseite",
+    "goBack": "Zurück"
+  },
+  "unauthorized": {
+    "title": "Nicht autorisiert",
+    "description": "Bitte melden Sie sich an, um diese Seite zu sehen.",
+    "backToHome": "Zur Startseite",
+    "goBack": "Zurück"
+  },
+  "serverError": {
+    "title": "Serverfehler",
+    "description": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "reload": "Neu laden",
+    "backToHome": "Zur Startseite"
+  },
+  "welcome": {
+    "message": "Willkommen in Ihrer Anwendung",
+    "startButton": "Von hier aus starten"
+  },
+  "auth": {
+    "signIn": {
+      "title": "Login",
+      "subtitle": "Geben Sie Ihre Zugangsdaten ein, um auf Ihr Konto zuzugreifen",
+      "google": "Mit Google-Konto anmelden",
+      "redirecting": "Anmeldung läuft..."
+    }
+  },
+  "settings": {
+    "general": {
+      "title": "Allgemein",
+      "metaData": {
+        "title": "Metadaten",
+        "description": "Aktualisieren Sie Ihre allgemeinen Metadaten.",
+        "metaTitle": "Meta-Titel",
+        "metaDescription": "Meta-Beschreibung",
+        "keywords": "Schlüsselwörter",
+        "authorName": "Autorenname",
+        "authorUrl": "Autoren-URL",
+        "saveChanges": "Änderungen speichern",
+        "metaDataUpdatedFor": "Metadaten für {locale} aktualisiert",
+        "updatedAll": "Änderungen wurden für alle Sprachen übernommen",
+        "saveFailed": "Speichern fehlgeschlagen",
+        "faLabel": "Persisch",
+        "enLabel": "Englisch",
+        "deLabel": "Deutsch"
+      }
+    },
+    "appearance": {
+      "title": "Erscheinungsbild",
+      "form": {
+        "title": "Erscheinungsbild",
+        "description": "Theme, Radius und Layout werden für alle Benutzer angewendet.",
+        "color": "Farbe",
+        "radius": "Radius",
+        "layout": "Layout",
+        "saveChanges": "Änderungen speichern",
+        "updated": "Erscheinungsbild-Einstellungen aktualisiert.",
+        "saveFailed": "Speichern der Erscheinungsbild-Einstellungen fehlgeschlagen.",
+        "horizontal": "Horizontal",
+        "vertical": "Vertikal"
+      }
+    },
+    "dashboardFooter": {
+      "title": "Dashboard Footer",
+      "form": {
+        "title": "Dashboard Footer",
+        "description": "Aktualisieren Sie den Footer-Text im Dashboard.",
+        "line1": "Zeile 1",
+        "line2": "Zeile 2",
+        "saveChanges": "Änderungen speichern",
+        "updatedFor": "Dashboard Footer für {locale} aktualisiert",
+        "updatedAll": "Änderungen wurden für alle Sprachen übernommen",
+        "saveFailed": "Speichern fehlgeschlagen",
+        "faLabel": "Persisch",
+        "enLabel": "Englisch",
+        "deLabel": "Deutsch"
+      }
+    }
+  },
+  "userManagementPage": {
+    "title": "Benutzerverwaltung",
+    "description": "Benutzer anzeigen, Rollen ändern oder Konten löschen.",
+    "columns": {
+      "name": "Name",
+      "email": "E-Mail",
+      "role": "Rolle",
+      "actions": "Aktionen"
+    },
+    "roles": {
+      "superAdmin": "Super-Admin",
+      "admin": "Admin",
+      "user": "Benutzer"
+    },
+    "actions": {
+      "delete": "Löschen",
+      "saving": "Speichern...",
+      "deleting": "Löschen..."
+    },
+    "messages": {
+      "roleUpdated": "Rolle aktualisiert.",
+      "roleUpdateFailed": "Rollenaktualisierung fehlgeschlagen.",
+      "superAdminImmutable": "Super-Admin kann nicht geändert werden.",
+      "userDeleted": "Benutzer gelöscht.",
+      "userDeleteFailed": "Löschen fehlgeschlagen."
+    },
+    "confirmDelete": {
+      "title": "Benutzer löschen?",
+      "description": "Dies entfernt den Benutzer sowohl aus der Datenbank als auch aus Clerk.",
+      "cancel": "Abbrechen",
+      "confirm": "Löschen"
+    }
+  }
+}

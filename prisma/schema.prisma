@@ -1,0 +1,48 @@
+generator client {
+  provider   = "prisma-client-js"
+  engineType = "client"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id          Int     @id @default(autoincrement())
+  clerkUserId String  @unique
+  email       String  @unique
+  name        String?
+  image       String
+  role        Role    @default(user)
+
+  @@map("users")
+}
+
+enum Role {
+  user
+  admin
+  super_admin
+}
+
+model SettingsGeneral {
+  id        String   @id @default(uuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  fa        Json
+  en        Json
+  de        Json
+
+  @@map("settings_general")
+}
+
+model SettingsAppearance {
+  id        String   @id @default(uuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  theme    String   @default("zinc")
+  radius   Float    @default(0.5)
+  layout   String   @default("vertical")
+
+  @@map("settings_appearance")
+}

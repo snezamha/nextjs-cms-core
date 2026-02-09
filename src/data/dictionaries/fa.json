@@ -1,0 +1,184 @@
+{
+  "navigation": {
+    "mainmenu": "منوی اصلی",
+    "mainPage": "صفحه خانه",
+    "dashboard": "داشبورد",
+    "users": "کاربران",
+    "settings": "تنظیمات",
+    "general": "عمومی",
+    "appearance": "ظاهر",
+    "dashboardFooter": "فوتر داشبورد",
+    "profile": "پروفایل",
+    "userManagement": "مدیریت کاربران",
+    "signOut": "خروج از حساب کاربری",
+    "signOutConfirm": {
+      "title": "خروج از سیستم",
+      "message": "آیا مطمئن هستید که می‌خواهید خارج شوید؟",
+      "cancel": "انصراف",
+      "confirm": "بله، خارج شوم"
+    },
+    "language": {
+      "language": "زبان",
+      "english": "انگلیسی",
+      "persian": "فارسی",
+      "german": "آلمانی"
+    },
+    "mode": {
+      "mode": "حالت",
+      "dark": "تیره",
+      "light": "روشن",
+      "system": "سیستم"
+    }
+  },
+  "search": {
+    "search": "جستجو...",
+    "noResults": "نتیجه‌ای یافت نشد.",
+    "typeCommand": "برای جستجو در منو تایپ کنید..."
+  },
+  "footer": {
+    "copyright": "طراحی و توسعه توسط: "
+  },
+  "customizer": {
+    "title": "شخصی‌سازی",
+    "description": "حالت، جهت و زبان.",
+    "color": "رنگ",
+    "radius": "گردی گوشه‌ها",
+    "mode": "حالت",
+    "language": "زبان",
+    "layout": "چیدمان",
+    "direction": "جهت",
+    "reset": "بازنشانی",
+    "horizontal": "افقی",
+    "vertical": "عمودی",
+    "ltr": "چپ به راست",
+    "rtl": "راست به چپ"
+  },
+  "pageTitle": {
+    "dashboard": "داشبورد",
+    "users": "مدیریت کاربران",
+    "profile": "پروفایل",
+    "settings": "تنظیمات",
+    "dashboard-footer": "فوتر داشبورد"
+  },
+  "notFound": {
+    "title": "صفحه مورد نظر یافت نشد",
+    "description": "ما نتوانستیم صفحه مورد نظر شما را پیدا کنیم. ممکن است منتقل شده باشد یا وجود نداشته باشد.",
+    "backToHome": "بازگشت به صفحه اصلی",
+    "goBack": "بازگشت"
+  },
+  "forbidden": {
+    "title": "دسترسی غیرمجاز",
+    "description": "شما اجازه مشاهده این صفحه را ندارید.",
+    "backToHome": "بازگشت به صفحه اصلی",
+    "goBack": "بازگشت"
+  },
+  "unauthorized": {
+    "title": "نیاز به ورود",
+    "description": "برای مشاهده این صفحه باید وارد حساب کاربری شوید.",
+    "backToHome": "بازگشت به صفحه اصلی",
+    "goBack": "بازگشت"
+  },
+  "serverError": {
+    "title": "خطای سرور",
+    "description": "مشکلی پیش آمد. لطفاً دوباره تلاش کنید.",
+    "reload": "بارگذاری مجدد",
+    "backToHome": "بازگشت به صفحه اصلی"
+  },
+  "welcome": {
+    "message": "به برنامه خودتان خوش آمدید",
+    "startButton": "از اینجا شروع کنید"
+  },
+  "auth": {
+    "signIn": {
+      "title": "ورود",
+      "subtitle": "برای ورود به حساب کاربری، اطلاعات خود را وارد کنید",
+      "google": "ورود با حساب کاربری گوگل",
+      "redirecting": "در حال ورود..."
+    }
+  },
+  "settings": {
+    "general": {
+      "title": "عمومی",
+      "metaData": {
+        "title": "متادیتا",
+        "description": "اطلاعات متادیتای عمومی خود را به‌روزرسانی کنید.",
+        "metaTitle": "عنوان متا",
+        "metaDescription": "توضیحات متا",
+        "keywords": "کلمات کلیدی",
+        "authorName": "نام نویسنده",
+        "authorUrl": "آدرس نویسنده",
+        "saveChanges": "ذخیره تغییرات",
+        "metaDataUpdatedFor": "متادیتا برای {locale} به‌روزرسانی شد",
+        "updatedAll": "تغییرات برای همه زبان‌ها اعمال شد",
+        "saveFailed": "ذخیره تغییرات ناموفق بود",
+        "faLabel": "فارسی",
+        "enLabel": "انگلیسی",
+        "deLabel": "آلمانی"
+      }
+    },
+    "appearance": {
+      "title": "ظاهر",
+      "form": {
+        "title": "ظاهر",
+        "description": "تم، گردی گوشه‌ها و چیدمان برای همه کاربران اعمال می‌شود.",
+        "color": "رنگ",
+        "radius": "گردی گوشه‌ها",
+        "layout": "چیدمان",
+        "saveChanges": "ذخیره تغییرات",
+        "updated": "تنظیمات ظاهر به‌روزرسانی شد.",
+        "saveFailed": "ذخیره تنظیمات ظاهر ناموفق بود.",
+        "horizontal": "افقی",
+        "vertical": "عمودی"
+      }
+    },
+    "dashboardFooter": {
+      "title": "فوتر داشبورد",
+      "form": {
+        "title": "فوتر داشبورد",
+        "description": "متن فوتر نمایش داده شده در داشبورد را به‌روزرسانی کنید.",
+        "line1": "خط ۱",
+        "line2": "خط ۲",
+        "saveChanges": "ذخیره تغییرات",
+        "updatedFor": "فوتر داشبورد برای {locale} به‌روزرسانی شد",
+        "updatedAll": "تغییرات برای همه زبان‌ها اعمال شد",
+        "saveFailed": "ذخیره تغییرات ناموفق بود",
+        "faLabel": "فارسی",
+        "enLabel": "انگلیسی",
+        "deLabel": "آلمانی"
+      }
+    }
+  },
+  "userManagementPage": {
+    "title": "مدیریت کاربران",
+    "description": "کاربران را مشاهده کنید، نقش‌ها را تغییر دهید یا حساب‌ها را حذف کنید.",
+    "columns": {
+      "name": "نام",
+      "email": "ایمیل",
+      "role": "نقش",
+      "actions": "عملیات"
+    },
+    "roles": {
+      "superAdmin": "سوپر ادمین",
+      "admin": "ادمین",
+      "user": "کاربر"
+    },
+    "actions": {
+      "delete": "حذف",
+      "saving": "در حال ذخیره...",
+      "deleting": "در حال حذف..."
+    },
+    "messages": {
+      "roleUpdated": "نقش بروزرسانی شد.",
+      "roleUpdateFailed": "بروزرسانی نقش ناموفق بود.",
+      "superAdminImmutable": "نقش سوپر ادمین قابل تغییر نیست.",
+      "userDeleted": "کاربر حذف شد.",
+      "userDeleteFailed": "حذف کاربر ناموفق بود."
+    },
+    "confirmDelete": {
+      "title": "حذف کاربر؟",
+      "description": "این عملیات کاربر را هم از دیتابیس و هم از Clerk حذف می‌کند.",
+      "cancel": "انصراف",
+      "confirm": "حذف"
+    }
+  }
+}
